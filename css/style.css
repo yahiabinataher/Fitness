@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CA:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* font-family: "Playwrite CA", cursive; */
+/* defult style */
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+}
+
+:root{
+    --primary_color: #E6533C;
+    --sendary_color:#000;
+    --bg_color:#222222;
+    --text_color:#fff;
+    
+}
+
+/* background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+
+ */
+ /* background: rgba(34, 34, 34, 1);
+ */
+h1{
+    font-size: 4.8rem;
+    font-weight: bold;
+}
+h4{
+    font-size: 3rem;
+    font-weight: bold;
+}
+h5{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+p{
+    font-size: 0.87rem;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.1;
+}
+ul,li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+
+.container{
+    width: 90%;
+    margin: 5rem auto;
+
+}
+
+section{
+    padding: 3.6rem;
+}
+
+/* navbar design */
+
