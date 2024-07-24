@@ -73,8 +73,8 @@ img{
 }
 
 section{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 /* navbar design */
 
@@ -145,7 +145,6 @@ nav h2{
 .banner_con{
     width: 50%;
 }
-.banner_con h1{}
 .banner_con h1 span{
     font-family: "Sevillana", cursive;
     font-weight: normal;
@@ -228,6 +227,7 @@ nav h2{
 }
 .habit_img p{
     text-align: center;
+    font-size: 0.8rem;
 }
 .habit_img h5{
     font-size: 1.5rem;
@@ -270,6 +270,7 @@ nav h2{
     width: 500px;
     overflow: hidden;
     border-radius: 20px;
+    /* text-align: right; */
 }
 /* traning */
 .tranint_heading{
@@ -294,8 +295,8 @@ nav h2{
     position: absolute;
     left: 10%;
     bottom: 20%;
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 400;
     color: var(--text_color);
 }
 .traning_img:nth-child(2) .img_blur{
@@ -310,8 +311,8 @@ nav h2{
     position: absolute;
     top: 10%;
     left: 20%;
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 400;
     color: var(--text_color);
 }
 .traning_img:nth-child(3) .img_blur{
@@ -326,8 +327,8 @@ nav h2{
     position: absolute;
     bottom: 20%;
     left: 20%;
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 400;
     color: var(--text_color);
 }
 .traning_img:nth-child(4) .img_blur{
@@ -342,8 +343,8 @@ nav h2{
     position: absolute;
     top: 20%;
     right: 20%;
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 400;
     color: var(--text_color);
 }
 .traning_img:nth-child(5) .img_blur{
@@ -358,8 +359,8 @@ nav h2{
     position: absolute;
     bottom: 20%;
     left: 20%;
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 400;
     color: var(--text_color);
 }
 .traning_img:nth-child(6) .img_blur{
@@ -374,8 +375,8 @@ nav h2{
     position: absolute;
     bottom: 20%;
     left: 20%;
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 400;
     color: var(--text_color);
 }
 .traning_img img{
@@ -424,7 +425,7 @@ nav h2{
 .bmi_section{
     width: 100%;
     height: 70vh;
-    background-color: #333131;
+    background-color: #222222;
 }
 .bmi_con{
     display: flex;
@@ -444,45 +445,45 @@ table {
     margin-left: 10%;
    
 }
-thead tr th{
-    border: 2px solid rgb(107, 97, 88);
+table, th, td {
+    border: 1px solid #fff;
+    border-collapse: collapse;
     padding: 10px 30px;
     text-align: center;
-}
-tbody tr td{
-    border: 2px solid rgb(107, 97, 88);
-    padding: 10px 30px;
-    text-align: center;
-    font-size: 12px;
-    color:rgb(177, 173, 170); ;
-}
+    font-size: 0.8rem;
+  }
+
 from{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     margin-top: 20px;
 }
 
-from input{
-    height: 5vh;
+
+from input,select{
+    height: 6vh;
     width: 100%;
     border: none;
     outline: none;
-    background-color: #585151;
+    background-color: #585151ca;
     border-radius: 5px;
 }
-from input::placeholder{
+
+from input::placeholder,select{
     color: #fff;
     padding-left: 10px;
-    font-size: 1rem;
+    font-size: 0.9rem;
+}
+.full{
+    grid-column: 1 / -1;
 }
 from button{
+    width: 60%;
     background: var(--primary_color);
     color: #fff;
-   padding: 0.5rem 0.9rem !important;
-   display: inline-block;
+   
    font-size: 1rem !important;
-   grid-column-start: -3;
 }
 
 
@@ -504,13 +505,21 @@ from button{
     top: 0;
     left: 0;
 }
-.team_img p{
+.team_img .img_blur_con{
     position: absolute;
     left: 8%;
     bottom: 9%;
     font-size: 1.3rem;
     font-weight: 600;
     color: var(--text_color);
+}
+.team_img .img_blur_con h5{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.team_img .img_blur_con p{
+    font-size: 0.7rem;
+    font-weight: 400;
 }
 .team_img .img_blur{
     width: 100%;
