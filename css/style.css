@@ -342,9 +342,8 @@ nav h2 {
    padding: 20px 10px;
 }
 .storage_con .storage_img{
-    height: 250px;
+    height: 300px;
     width: 100%;
-    object-fit: cover;
     position: relative;
     overflow: hidden;  
 }
@@ -970,7 +969,9 @@ footer span {
     font-size: 1rem;
 }
 .storage_img img{
-    height: 200px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 /* schedule */
 .schedule_bg{
