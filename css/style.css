@@ -268,7 +268,7 @@ nav h2 {
    padding: 20px 10px;
 }
 .class_con .class_img{
-    height: 190px;
+    height: 260px;
     width: 100%;
     object-fit: cover;
     position: relative;
@@ -936,6 +936,7 @@ footer span {
   }
   .extra_img img {
     width: 360px;
+    object-fit: cover;
   }
   /* class */
   .class_cons{
@@ -948,7 +949,8 @@ footer span {
     font-size: 1rem;
 }
 .class_img img{
-    height: 190px;
+    height: 280px;
+    overflow: hidden;
 }
 .img_con_icon{
     flex-direction: column;
